@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Secrets / configuration ---
+.env
+.env.*
+!.env.example
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Bases de données locales ---
+*.sqlite3
+*.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Données sensibles ---
+# Les images de test doivent rester anonymisées/fictives (cahier des charges).
+# Ce dossier est réservé à d'éventuelles vraies données locales — ne jamais le committer.
+tests/images/real/
+tests/images/private/
+
+# --- Divers ---
+*.bak
