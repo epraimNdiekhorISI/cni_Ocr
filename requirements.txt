@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-python
+pytesseract
+easyocr
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+pytest
+pytest-cov
+black
+ruff
